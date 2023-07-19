@@ -8,8 +8,8 @@
     <body>
         <div class="box">
             <h1>متن خبر</h1>
-            {%csrf_token%}
             <form method="post">
+                {%csrf_token%}
                 <input type="text" name="newsInput" placeholder="متن خبر را وارد کنید"> 
                 <input type="submit" name="" value="جست و جو" >
             </form>
